@@ -1,10 +1,10 @@
-##Slick Fifths a online vinyl shop, utilizing PayPal's REST API, along with Handlebars, Node.js, and MongoDB.
+## Slick Fifths a online vinyl shop, utilizing PayPal's REST API, along with Handlebars, Node.js, and MongoDB.
 -------
-###Date Created: April 3rd, 2018
+### Date Created: April 3rd, 2018
 
-###Version of Node.js: v9.5.0
+### Version of Node.js: v9.5.0
 
-###Installation: 
+### Installation: 
 The node modules can be installed through the command, executed exactly as show below
 
 `npm install`
@@ -18,7 +18,7 @@ Where `path location` is the directory where you would like to store the databas
 
 To initialize the database from the seed directory run the following
 
-node populate-for-startup.js
+`node populate-for-startup.js`
 
 Testing & launch instructions: The server can be run through the command, executed exactly as show below
 
@@ -30,13 +30,13 @@ Once the server is running, you can access the webpage by going onto a web-brows
 
 Once on the site you can login as a admin with the following username and password
 
-`username: admin@admin.com
-password: admin`
+`username: admin@admin.com`
+`password: admin`
 
 you can also access the site not as a admin with any of the following
 
-`username: trevor@gmail.com
-password: password
+`username: trevor@gmail.com`
+`password: password`
 
-username: michael@gmail.com
-password: password`
+`username: michael@gmail.com`
+`password: password`
