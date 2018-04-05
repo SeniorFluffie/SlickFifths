@@ -1,0 +1,18 @@
+<div class="row">
+    <div class="col-md-6">
+        <div class="product-image">
+            <img src="{{product.imagePath}}" height="500">
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="product-details-wrapper">
+            <div class="product-title"><h2>{{product.title}}</h2></div>
+            <div class="product-artist"><h4>{{product.artist}}</h4></div>
+            <div class="product-description">{{product.description}}</div>
+            <div class="product-price">${{product.price}} CAD</div>
+            <div class="product-button">
+                <a href="/add-to-bag/{{product._id}}" class="btn btn-primary full-width pad10"><i class="shopping cart" aria-hidden="true"></i> Add to bag</a>
+            </div>
+        </div>
+    </div>
+</div>
